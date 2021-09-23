@@ -1,8 +1,7 @@
 const sumAll = function(startingNum, endingNum) {
-    if (startingNum > 0 && // Number cannot be negative
-        endingNum > 0 &&  // Number cannot be negative
-        typeof startingNum === "number" && // Must be number data type
-        typeof endingNum === "number") { // Must be number data type
+    if (startingNum, endingNum > 0 &&
+        typeof startingNum, 
+        typeof endingNum === "number") { //Numbers must be positive and number data type
     const newStartingNum = Math.min(startingNum, endingNum) // Find the lowest number between startingNum & endingNum
     const newEndingNum = Math.max(startingNum, endingNum) // Find the highest number between startingNum & endingNum
     let newTotal = 0 // A new total with a starting value of 0
