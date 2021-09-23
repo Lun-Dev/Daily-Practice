@@ -1,6 +1,7 @@
 const sumAll = function(startingNum, endingNum) {
-    if (startingNum, endingNum > 0 &&
-        typeof startingNum, 
+    if (startingNum > 0 && 
+        endingNum > 0 && 
+        typeof startingNum === "number" && 
         typeof endingNum === "number") { //Numbers must be positive and number data type
     const newStartingNum = Math.min(startingNum, endingNum) // Find the lowest number between startingNum & endingNum
     const newEndingNum = Math.max(startingNum, endingNum) // Find the highest number between startingNum & endingNum
