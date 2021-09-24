@@ -1,0 +1,23 @@
+{
+  "name": "Daily-Practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js_destructuring-arrays.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lun-Dev/Daily-Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lun-Dev/Daily-Practice/issues"
+  },
+  "homepage": "https://github.com/Lun-Dev/Daily-Practice#readme",
+  "devDependencies": {
+    "jest": "^27.2.1"
+  }
+}
