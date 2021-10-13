@@ -6,8 +6,12 @@ const subtract = function(a,b) {
 	return a - b;
 };
 
-const sum = function() {
+const sum = function(a) {
+  a.reduce(getSum, 0);
 
+  function getSum(total, num) {
+    return total + num
+  }
 };
 
 const multiply = function() {
