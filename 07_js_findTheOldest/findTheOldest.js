@@ -16,10 +16,12 @@ const people = [
     },
   ]
 
-const findTheOldest = function() {
+const findTheOldest = function(people) {
     for (let i = 0; i < people.length; i++) {
-    	people[i].age = people[i].yearOfDeath - people[i].yearOfBirth
-    }
+        people[i].age = people[i].yearOfDeath - people[i].yearOfBirth
+        }
+    
+    const result = people.sort((a,b) => b.age - a.age).forEach((e) => {console.log(`${e.name}`)})
 };
 
 // Do not edit below this line
