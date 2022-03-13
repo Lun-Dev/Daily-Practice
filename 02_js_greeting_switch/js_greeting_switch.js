@@ -7,7 +7,7 @@ const greetingSwitch = function(timer) {
         case "night":
             return "Good Night"
         default:
-            return "ERROR";
+            return "ERROR"
     }
 };
 
