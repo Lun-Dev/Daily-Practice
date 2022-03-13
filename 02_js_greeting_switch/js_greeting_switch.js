@@ -1,7 +1,7 @@
 const greetingSwitch = function(timer) {
     switch(timer) {
         case "morning":
-            return "Good Morning";
+            return "Good Morning"
         case "evening":
             return "Good Evening";
         case "night":
